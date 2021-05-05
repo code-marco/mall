@@ -7,9 +7,12 @@ import "element-ui/lib/theme-chalk/index.css";
 
 Vue.config.productionTip = false;
 
+// 赋值原型 $bus 事件总线
+Vue.prototype.$bus = new Vue();
+
 Vue.use(ElementUI);
 new Vue({
   router,
   store,
-  render: h => h(App),
+  render: h => h(App)
 }).$mount("#app");

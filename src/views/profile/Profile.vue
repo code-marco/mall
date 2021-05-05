@@ -1,12 +1,12 @@
 <template>
-  <div id="test">test</div>
+  <h2>我的</h2>
 </template>
 
 <script>
 export default {
-  name: "Test",
+  name: "Profile",
 };
 </script>
 
-<style lang="scss" scoped>
+<style>
 </style>
